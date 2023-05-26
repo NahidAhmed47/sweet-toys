@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.max-container{
+    @apply max-w-[1250px] mx-auto
+}
+.my-btn{
+    @apply px-4 py-2 text-sm bg-primary hover:bg-secondary rounded-full duration-300 text-white font-medium
+}
+.nav-link-hover{
+    @apply px-3 py-1 rounded-full hover:bg-white hover:text-primary font-medium duration-300
+}
